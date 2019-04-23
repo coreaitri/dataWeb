@@ -1,0 +1,197 @@
+{
+    "Airport":
+    [
+        {
+        "id": 1,
+        "Nama": "Sultan Iskandar Muda - BTJ",
+        "Kota": "Banda Aceh"
+        },
+        {
+        "id": 2,
+        "Nama": "Kuala Namu - KNO",
+        "Kota": "Medan"
+        },
+        {
+        "id": 3,
+        "Nama": "Minangkabau International Airport - PDG",
+        "Kota": "Padang"
+        },
+        {
+        "id": 4,
+        "Nama": "Sultan Syarif Kasim II - PKU",
+        "Kota": "Pekanbaru"
+        },
+        {
+        "id": 5,
+        "Nama": "Hang Nadim - BTH ",
+        "Kota": "Batam"
+        },
+        {
+        "id": 6,
+        "Nama": "Sultan Mahmud Badaruddin II - PLM ",
+        "Kota": "Palembang"
+        },
+        {
+        "id": 7,
+        "Nama": "Fatmawati Soekarno - BKS",
+        "Kota": "Bengkulu"
+        },
+        {
+        "id": 8,
+        "Nama": "Sultan Thaha - DJB",
+        "Kota": "Jambi"
+        },
+        {
+        "id": 9,
+        "Nama": "Radin Inten II - TKG",
+        "Kota": "Lampung"
+        },
+        {
+        "id": 10,
+        "Nama": "Halim Perdana Kusuma - HLP",
+        "Kota": "Jakarta"
+        },
+        {
+        "id": 11,
+        "Nama": "Soekarno Hatta -CGK",
+        "Kota": "Tangerang "
+        },
+        {
+        "id": 12,
+        "Nama": "Husein Sastranegara - BDO",
+        "Kota": "Bandung"
+        },
+        {
+        "id": 13,
+        "Nama": "Ahmad Yani - SRG",
+        "Kota": "Semarang"
+        },
+        {
+        "id": 14,
+        "Nama": "Adi Sutjipto - JOG",
+        "Kota": "Yogyakarta"
+        },
+        {
+        "id": 15,
+        "Nama": "Abdurrahman Saleh - MLG",
+        "Kota": "Malang"
+        },
+        {
+        "id": 16,
+        "Nama": "Ngurah Rai - DPS",
+        "Kota": "Denpasar"
+        },
+        {
+        "id": 17,
+        "Nama": "Iskandar - PKN",
+        "Kota": "Kalimantan Tengah"
+        },
+        {
+        "id": 18,
+        "Nama": "Haluoleo - KDI",
+        "Kota": "Sulawesi Tenggara"
+        },
+        {
+        "id": 19,
+        "Nama": "Djalaluddin - GTO",
+        "Kota": "Gorontalo"
+        },
+        {
+        "id": 20,
+        "Nama": "Lombok Praya - LOP ",
+        "Kota": "Lombok "
+        },
+        {
+        "id": 21,
+        "Nama": "El Tari - KOE ",
+        "Kota": "El Tari"
+        },
+        {
+        "id": 22,
+        "Nama": "Mopah - MKQ",
+        "Kota": "Merauke"
+        },
+        {
+        "id": 23,
+        "Nama": "Sultan Babullah - TTE",
+        "Kota": "Ternate"
+        }
+    ],
+
+    "Kelas Kabin":[{
+            "id": 1,
+            "Nama": "Economy"   
+        },
+        {
+            "id": 2,
+            "Nama": "Business"
+        },
+        {
+            "id": 3,
+            "Nama": "First Class"
+        },
+        {
+            "id": 4,
+            "Nama": "Premium Economy"
+        }
+    ],
+
+    "Data Booking": [{
+        "Dari": "",
+        "Tujuan" : "",
+        "Pergi": "",
+        "Pulang": "",
+        "Penumpang":"",
+        "KelasKabin":""
+        }
+    ],
+
+    "products": [{
+        "id":1,
+        "Maskapai":"Lion Air",
+        "Dari": "Batam",
+        "Tujuan" : "Medan",
+        "Pergi": "20/02/2019",
+        "Pulang": "",
+        "Penumpang":"1",
+        "KelasKabin":"Economy",
+        "price": "800.000",
+        "image": "/image/lion.png"
+    },
+    {
+        "id":2,
+        "Maskapai":"Garuda",
+        "Dari": "Batam",
+        "Tujuan" : "Medan",
+        "Pergi": "20/02/2019",
+        "Pulang": "25/02/2019",
+        "Penumpang":"1",
+        "KelasKabin":"First Class",
+        "price": "2.800.000",
+        "image": "/image/garuda.png"
+    },
+    {
+        "id":3,
+        "Maskapai":"Citilink",
+        "Dari": "Batam",
+        "Tujuan" : "Medan",
+        "Pergi": "20/02/2019",
+        "Pulang": "21/02/2019",
+        "Penumpang":"1",
+        "KelasKabin":"Business",
+        "price": "1.800.000",
+        "image": "/image/citilink.png"
+    },
+    {
+        "id":4,
+        "Maskapai":"Lion Air",
+        "Dari": "Batam",
+        "Tujuan" : "Medan",
+        "Pergi": "20/02/2019",
+        "Pulang": "28/02/2019",
+        "Penumpang":"1",
+        "KelasKabin":"Premium Economy",
+        "price": "1.300.000",
+        "image": "/image/lion.png"
+    }]
+}
